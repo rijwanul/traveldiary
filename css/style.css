@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+.menu{
+    padding: 15px 0;
+    background: #f8f8f8;
+}
+
+.logo{
+    width: 20%;
+    display: inline-block;
+}
+
+.logo h2{
+    font-family: 'Redressed', cursive;
+    color: #708425;
+    font-size: 25px;
+}
+
+.list{
+    width: 79%;
+    display: inline-block;
+}
+
+.list ul{
+    list-style: none;
+    float: right;
+}
+
+.list ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: #708425;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.banner{
+    margin: 40px 0;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.banner--img img{
+    border-radius: 5px;
+}
+
+.banner--quote{
+    padding: 5px 0;
+}
+
+.banner--quote p{
+    font-size: 25px;
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    color: #708425;
+}
+
+.blog{
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 320px;
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid #ececec;
+    border-radius: 6px;
+}
+
+.card1, .card2{
+    margin-right: 15px;
+}
+
+.card .img--box img{
+    border-radius: 6px 6px 0 0;
+}
+
+.card .card--content{
+    padding: 15px 10px;
+}
+
+.card .card--title{
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    margin-bottom: 12px;
+    color: #5a7008;
+    font-weight: 500;
+}
+
+.card .card--description{
+    text-align: justify;
+    font-size: 17px;
+    color: #777;
+}
+
+.card .card--btn{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.card .card--btn a{
+    color: #fff;
+    display: inline-block;
+    background: #708425;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+.copyright{
+    padding: 15px 0;
+    background: #f8f8f8;
+}
+
+.copyright--text{
+    text-align: center;
+    font-size: 18px;
+    color: #686868;
+}
+
+
+
+
+
+
